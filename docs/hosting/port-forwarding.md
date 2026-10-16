@@ -6,10 +6,9 @@ sidebar_position: 3
 
 The big question, how to port forward Star Conflict.  
 In order for the Hub to start, in the `cloud.xml` file,
-an IP address of the machine where the Hub is hosted
-should be entered,
+an IP address of the machine where the Hub is hosted should be entered,
 however this IP is also sent to the client who will
-connect to it no questions asked.
+connect to it.
 
 ## The Ports used
 

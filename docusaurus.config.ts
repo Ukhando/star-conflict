@@ -29,6 +29,10 @@ const config: Config = {
 
   onBrokenLinks: 'throw',
 
+  plugins: [
+    require.resolve('docusaurus-lunr-search')
+  ],
+
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
@@ -147,7 +151,7 @@ const config: Config = {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
     },
-  } satisfies Preset.ThemeConfig,
+  } satisfies Preset.ThemeConfig
 };
 
 export default config;
